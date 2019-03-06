@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/tz/online/book/BookMapper.java=UTF-8
+encoding//src/main/java/com/tz/online/book/BookService.java=GBK
+encoding//src/main/java/com/tz/online/filter/EncodeFilter.java=UTF-8
+encoding//src/main/java/com/tz/online/filter/PermissionFilter.java=UTF-8
+encoding//src/main/java/com/tz/online/util/DateUtil.java=UTF-8
+encoding//src/main/resources/log4j.properties=UTF-8
+encoding//src/test/java=UTF-8

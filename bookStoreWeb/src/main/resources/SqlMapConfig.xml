@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration SYSTEM "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+	<properties resource="dbconfig.properties" />
+
+	<typeAliases>
+		<package name="com.tz.online.entity" />
+	</typeAliases>
+	
+	<typeHandlers>
+	</typeHandlers>
+	
+	<environments default="development">
+		<environment id="development">
+			<!-- 由MyBatis管理JDBC事务 -->
+			<transactionManager type="JDBC" />
+			<!-- 数据源连接池 -->
+			<dataSource type="POOLED">
+				<property name="driver" value="${oracle.driverClass}" />
+				<property name="url" value="${oracle.url}" />
+				<property name="username" value="${oracle.username}" />
+				<property name="password" value="${oracle.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<mappers>
+		<package name="com.tz.online.book" />
+		<package name="com.tz.online.user" />
+		<package name="com.tz.online.order" />
+	</mappers>
+</configuration>
