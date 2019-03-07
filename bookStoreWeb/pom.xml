@@ -23,11 +23,12 @@
 			<version>3.4.5</version>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
-		</dependency>
+		</dependency>-->
+		
 
 		<!-- log4j -->
 		<dependency>
@@ -77,6 +78,7 @@
 
 	<build>
 		<finalName>bookStoreWeb</finalName>
+		<defaultGoal>compile</defaultGoal>
 		<!-- 需要使用的插件列表 -->
 		<plugins>
 			<!-- 插件元素, 编译插件 -->
